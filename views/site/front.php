@@ -62,12 +62,12 @@ use yii\helpers\Html;
         </div>
       </div>
     </div>
-    <h3 style="position: relative; top: -40px;">وب سایت ما به زودی راه اندازی می شود</h3>
+    <h3 style="position: relative; top: -40px; margin-top: 80px;">وب سایت ما به زودی راه اندازی می شود</h3>
       <div style="position: relative; top: -40px;" class="subscribe" id="subscribe">
         <?= Html::beginForm(['site/front'], 'post', ['enctype' => 'multipart/form-data','class'=>'subfrm']) ?>
         <?= Html::input('email', 'Email[email]','', ['id'=>'email-email','class' => 'email form_item requiredField','style'=>'direction: rtl;','placeholder'=>'لطفا ایمیل خود را وارد کنید']) ?>
 
-        <?= Html::submitButton('ارسال', ['class' => 'btn','id'=>'submitmail','style'=>'font-weight:bold;font-family: IRANSans !important;','data-url'=>Yii::$app->request->hostInfo . Yii::$app->request->baseUrl]) ?>
+        <?= Html::submitButton('ارسال', ['class' => 'btn btn-class-c','id'=>'submitmail','style'=>'font-weight:bold;font-family: IRANSans !important;','data-url'=>Yii::$app->request->hostInfo . Yii::$app->request->baseUrl]) ?>
 <!--        --><?php //if(Yii::$app->session->getFlash('successmail')!='' ){
 //          echo '<div style="color:white;">'.Yii::$app->session->getFlash('successmail') .'</div>';
 //        } ?>
