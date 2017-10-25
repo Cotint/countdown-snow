@@ -17,12 +17,13 @@ use yii\helpers\Html;
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>tnlmall</title>
+  <title>TunnelMall | تونل مال</title>
   <meta name="description" content="tnl">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="<?php echo Yii::$app->request->baseUrl; ?>/css/clock.css">
   <link rel="stylesheet" type="text/css" href="<?php echo Yii::$app->request->baseUrl; ?>/css/main_firstpage.css">
   <link rel="stylesheet" type="text/css" href="<?php echo Yii::$app->request->baseUrl; ?>/css/responsive.css">
+  <link rel="icon" href="<?php echo Yii::$app->request->baseUrl; ?>/favicon.ico">
   <link href="<?php echo Yii::$app->request->baseUrl; ?>/fontawesome/css/font-awesome.min.css" rel="stylesheet">
     <script src="<?php echo Yii::$app->request->baseUrl; ?>/js/modernizr-2.6.2.min.js"></script>
 </head>

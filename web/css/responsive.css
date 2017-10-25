@@ -183,10 +183,11 @@
 	}
 }
 @media (max-width: 496px) {
+
 	.subscribe input[type="email"] {
 		display: block;
 		float: left;
-		width: 80% !important;
+		width: 62% !important;
 		height: 38px;
 		line-height: 38px;
 		padding: 0 20px;
@@ -197,7 +198,7 @@
 		font-size: 16px;
 		color: #ffffff;
 	}
-	.btn-class-c{
+	.btn-class-c {
 		width: 120px;
 		height: 40px;
 		cursor: pointer;
@@ -206,13 +207,13 @@
 		border: 1px solid #ffffff;
 		position: relative;
 		top: 0px;
-		margin-top: 35px;
-		left: 145px;
+		margin-top: 60px;
+		left: -230px;
 	}
 	.social i {
 		margin-right: 20px;
 		cursor: pointer;
 		position: relative;
-		top: -80px;
+		top: 5px;
 	}
 }
